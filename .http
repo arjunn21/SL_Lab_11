@@ -1,0 +1,26 @@
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "documents": [
+        {"name": "Satya",
+        "reg": "201900303",
+        "marks": 35
+        },{"name": "Aswin",
+        "reg": "201900373",
+        "marks": 38
+        },
+        {"name": "Ankur",
+        "reg": "201900255",
+        "marks": 50
+        },
+        {"name": "Saran",
+        "reg": "201900315",
+        "marks": 45
+        },
+        {"name": "Varun",
+        "reg": "201900303",
+        "marks": 49
+        }
+    ]
+}
